@@ -1,0 +1,37 @@
+#title{
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Brush Script MT';
+}
+.instruction{
+    text-align: center;
+    font-family: 'Brush Script MT';
+    font-size: 20px;
+}
+
+form{
+    text-align: center;
+
+}
+input{
+    width: 300px;
+    height: 200px;
+    font-size: 90px;
+    font-family: 'Brush Script MT';
+    color: white;
+    background-color: black;
+}
+input:hover{
+    border: solid rgb(39, 250, 31) 7px;
+    color: red;
+}
+input:active{
+    border: solid red 7px;
+    color:  rgb(39, 250, 31);
+}
+.greenText{
+    color: rgb(39, 250, 31);
+}
+.redText{
+    color: red;
+}

@@ -1,7 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>Hello World</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="title.css">
 
 </head>
 <body>
-    <span>Hello World</span>
+    <main>
+        <h1 id="title">Number Guessing Game</h1>
+        <div>
+            <h2 class="instruction">Guess the correct 4-digit number by typing numbers in the input boxes.</h2>
+            <h2 class="instruction">Correct digits will be highlighted in <span class="greenText">GREEN</span>.</h2>
+            <h2 class="instruction">Incorrect digits will be highlighted in <span class="redText">RED</span>.</h2>
+            <h2 class="instruction">You will be notified if you have a correct digit in the wrong spot.</h2>
+            <h2 class="instruction">When you guess all four digits corectly, you win.</h2>
+        </div>
+        <form action="action.php" method="post">
+            <input type="submit" value="PLAY">
+        </form>
+    </main>
 </body>
+</html>

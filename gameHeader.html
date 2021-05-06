@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="game.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1 id="title">Enter Numbers Below</h1>
+
+    <form action="javascript:;" onsubmit="testCombination()" id="inputContainer">
+        <input type="number" id="firstInput" class="add7pxBorder" max="9" min="0" required>
+        <input type="number" id="secondInput" class="add7pxBorder" max="9" min="0" required>
+        <input type="number" id="thirdInput" class="add7pxBorder" max="9" min="0" required>
+        <input type="number" id="fourthInput" class="add7pxBorder" max="9" min="0" required>
+        <br /><br />
+
+        <div class="centerContents">
+            <input type="submit" id="guessButton" value="Guess">
+        </div>
+
+    </form>
+
+    <form action="action.php" method="post" id="playAgainBox"></form>
+
+    <ul id="wrongSpotContainer">
+        <li>The 1st digit is in the wrong spot.</li>
+        <li>The 2nd digit is in the wrong spot.</li>
+        <li>The 3rd digit is in the wrong spot.</li>
+        <li>The 4th digit is in the wrong spot.</li>
+    </ul>
+    <!--
+    <div class="randomNumberContainer">
+        <span id="firstNumber">randomNumber1</span>
+        <span id="secondNumber">randomNumber2</span>
+        <span id="thirdNumber">randomNumber3</span>
+        <span id="fourthNumber">randomNumber4</span>
+    </div>
+    -->
